@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "start": "cd server && node start.js",
-    "dev": "cd client && yarn start",
-    "test": "cd client && yarn test",
-    "preinstall": "cd server && yarn install",
-    "install": "cd client && yarn install",
-    "build": "cd client && yarn run build",
-    "postinstall": "yarn run build"
+    "dev": "cd client && npm start",
+    "test": "cd client && npm test",
+    "preinstall": "cd server && npm install",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "postinstall": "npm run build"
   }
 }
